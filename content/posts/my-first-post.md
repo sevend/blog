@@ -1,11 +1,11 @@
 ---
-title: My First Post
+title: Hello World
 subtitle:
 date: 2025-04-01T09:20:58+08:00
 slug: 583bc6c
 draft: false
 author:
-  name:
+  name: SevenD
   link:
   email:
   avatar:

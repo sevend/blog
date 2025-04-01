@@ -1,0 +1,67 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# -------------------------------------------------------------------------------------
+
+# site description
+description = "技术结构梳理，并分享一些所见、所闻、所思"
+
+# site keywords
+keywords = ["家园工程", "七的博客", "SevenD", "Seven", "Home Project", "HomeProject", "JYGC"]
+
+# site default theme ("light", "dark", "auto")
+defaultTheme = "auto"
+# date format
+dateFormat = "2006-01-02"
+
+# website images for Open Graph and Twitter Cards
+images = ["/images/apple-devices-preview.webp"]
+# FixIt 0.2.12 | NEW enable PWA
+enablePWA = true
+# FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
+externalIcon = true
+# FixIt 0.3.13 | NEW whether to capitalize titles
+capitalizeTitles = true
+# FixIt 0.3.0 | NEW whether to add site title to the title of every page
+# remember to set up your site title in `hugo.toml` (e.g. title = "title")
+withSiteTitle = true
+# FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
+titleDelimiter = "|"
+# FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
+# remember to set up your site subtitle by `params.header.subtitle.name`
+indexWithSubtitle = true
+# FixIt 0.3.13 | NEW whether to show summary in plain text
+summaryPlainify = false
+# FixIt 0.2.14 | NEW FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
+# You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
+disableThemeInject = false
+
+# Author Configuration
+[author]
+  name = "SevenD"
+  email = "enter775@msn.com"
+  link = "https://01235670.xyz/"
+  avatar = "/images/avatar.jpg"
+
+[header]
+  # FixIt 0.2.13 | CHANGED desktop header mode ("sticky", "normal", "auto")
+  desktopMode = "sticky"
+  # FixIt 0.2.13 | CHANGED mobile header mode ("sticky", "normal", "auto")
+  mobileMode = "auto"
+  # Header title config
+  [header.title]
+    # URL of the LOGO
+    logo = "/logo.webp"
+    # title name
+    name = "家园工程的工坊"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    # whether to use typeit animation for title name
+    typeit = false
+  # FixIt 0.2.12 | NEW Header subtitle config
+  [header.subtitle]
+    # subtitle name
+    name = "道生一、一生二、二生三、三生萬物。 萬物負陰而抱陽，中炁以為和。"
+    # whether to use typeit animation for subtitle name
+    typeit = false
