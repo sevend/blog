@@ -1,0 +1,4 @@
+# git 黑名单
+
+# .history
+.history/*

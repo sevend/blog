@@ -7,5 +7,10 @@ theme = 'FixIt'
   _merge = "shallow"
 [outputs]
   _merge = "shallow"
+# [taxonomies]
+#   _merge = "shallow"
+
 [taxonomies]
-  _merge = "shallow"
+  category = "categories"
+  tag = "tags"
+  collection = "collections"
