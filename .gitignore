@@ -4,3 +4,5 @@
 .history/*
 
 content/.history/*
+
+.hugo_build.lock
