@@ -7,4 +7,5 @@ content/.history/*
 
 .hugo_build.lock
 
+./public*
 ./public/*
