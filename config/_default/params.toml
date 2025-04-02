@@ -65,3 +65,105 @@ disableThemeInject = false
     name = "道生一、一生二、二生三、三生萬物。 萬物負陰而抱陽，中炁以為和。"
     # whether to use typeit animation for subtitle name
     typeit = false
+
+# Footer config
+[footer]
+  enable = true
+  # FixIt 0.2.17 | CHANGED Custom content (HTML format is supported)
+  # whether to show copyright info
+  copyright = true
+  # whether to show the author
+  author = true
+  # Site creation year
+  since = 2018
+  # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
+  gov = ""
+  # ICP info only in China (HTML format is supported)
+  icp = ""
+  # license info (HTML format is supported)
+  license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+  # FixIt 0.3.0 | NEW whether to show Hugo and theme info
+  [footer.powered]
+    enable = true
+    hugoLogo = true
+    themeLogo = true
+  # FixIt 0.2.17 | CHANGED Site creation time
+  [footer.siteTime]
+    enable = true
+    animate = true
+    icon = "fa-solid fa-heartbeat"
+    pre = "博客已运行"
+    value = "2018-05-28T20:01:01+08:00"
+  # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
+  [footer.order]
+    powered = 1
+    copyright = 2
+    statistics = 3
+    visitor = 4
+    beian = 5
+
+# List (category or tag) page config
+[list]
+  # special amount of posts in each list page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+  # FixIt 0.3.10 | NEW Term list feed config for RSS, Atom and JSON feed.
+  [list.feed]
+    # The number of posts to include in the feed. Default is -1, which means all posts.
+    limit = -1
+    # whether to show the full text content in feed.
+    fullText = false
+
+# FixIt 0.3.13 | NEW recently updated pages config for archives, section and term list
+[recentlyUpdated]
+  archives = true
+  section = true
+  term = true
+  rss = false
+  days = 30
+  maxCount = 10
+
+# FixIt 0.2.17 | NEW TagCloud config for tags page
+[tagcloud]
+  enable = true
+  min = 14 # Minimum font size in px
+  max = 32 # Maximum font size in px
+  peakCount = 10 # Maximum count of posts per tag
+  orderby = "name" # Order of tags, optional values: ["name", "count"]
+
+
+# Home page config
+[home]
+  # amount of RSS pages
+  rss = 20
+  # Home page profile
+  [home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = ""
+    # URL of avatar shown in home page
+    avatarURL = "/images/avatar.jpg"
+    # FixIt 0.2.17 | NEW identifier of avatar menu link
+    avatarMenu = "about"
+    # title shown in home page (HTML format is supported)
+    title = "SevenD's Blog"
+    # subtitle shown in home page
+    subtitle = "不怕萬人阻擋，只怕自己投降"
+    # whether to use typeit animation for subtitle
+    typeit = true
+    # whether to show social links
+    social = true
+    # disclaimer (HTML format is supported)
+    disclaimer = ""
+  # Home page posts
+  [home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    paginate = 10
+
+
+[customPartials]
+    profile = [
+    "custom/profile.html",
+  ]

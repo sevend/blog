@@ -29,7 +29,7 @@ _—— 老子 帛书_
 
 博客内容主要以前端开发方向为主，分享一些有趣程序、技巧、开发教程、心情和学习记录等。
 
-你可以通过我的[微信公众号]( "关注「家园工程」公众号")、[GitHub](https://github.com/sevend "Watch on GitHub") 或 [RSS](http://0123567.xyz/index.xml) 来订阅本博客。
+你可以通过我的、[GitHub](https://github.com/sevend "Watch on GitHub") 或 [RSS](https://0123567.xyz/index.xml) 来订阅本博客。
 
 {{< style "min-height: 350px;" >}}
 {{< typeit code=javascript speed=20 >}}

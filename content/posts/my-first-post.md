@@ -14,10 +14,7 @@ keywords:
 license:
 comment: false
 weight: 0
-tags:
-  - draft
-categories:
-  - draft
+
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
@@ -37,6 +34,12 @@ repost:
   enable: true
   url:
 
+tags:
+  - 随笔
+categories:
+  - thoughts
+collections:
+  - milestones
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
