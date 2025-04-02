@@ -62,7 +62,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = "道生一、一生二、二生三、三生萬物。 萬物負陰而抱陽，中炁以為和。"
+    name = "道生一、一生二、二生三、三生萬物"
     # whether to use typeit animation for subtitle name
     typeit = false
 
