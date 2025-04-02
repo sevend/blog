@@ -48,13 +48,13 @@
   [main.params]
     icon = "fa-solid fa-tags"
 [[main]]
-  identifier = "fixit"
+  identifier = "homeproject"
   parent = "archives"
-  pre = '<img class="fixit-icon" src="https://fixit.lruihao.cn/images/hugo-fixit.webp" alt="FixIt logo">'
+  pre = '<img class="fixit-icon" src="https://01235670.xyz/logo.webp" alt="HomeProject logo">'
   post = '<i class="fa-solid fa-external-link-alt fa-fw fa-xs text-secondary"></i>'
-  name = "FixIt"
-  url = "https://fixit.lruihao.cn/"
-  title = "FixIt 官网"
+  name = "HomeProject"
+  url = "https://sunya.ink/"
+  title = "HomeProject 官网"
   weight = 4
   [main.params]
     divided = true
