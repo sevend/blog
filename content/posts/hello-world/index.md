@@ -1,6 +1,6 @@
 ---
 title: Hello World
-subtitle: 道生一，一生二，二生三，三生万物。
+subtitle: 道生一、一生二、二生三、三生萬物
 date: 2025-04-01T09:20:58+08:00
 # slug: 583bc6c
 draft: false
@@ -45,13 +45,14 @@ collections:
 
 <!--more-->
 
-> Hello World
+> 萬物負陰而抱陽，中炁以為和
 
+Hello World
 I am first Post of this blog.
 
-驱动家园工程
+创造之源谓之工坊，驱动家园工程
 
-先汇聚于此，梳理归位。
+梳理汇聚于归档于此
 
 ![逝如者斯乎，不舍昼夜](images/landscapephotographer201911.jpg '逝如者斯乎，不舍昼夜')
 
