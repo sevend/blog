@@ -2,5 +2,5 @@
 # Hugo Configuration
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
-
+title = "家园工程的工坊"
 baseURL = "https://01235670.xyz"
