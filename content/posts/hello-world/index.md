@@ -52,7 +52,7 @@ I am first Post of this blog.
 
 创造之源谓之工坊，驱动家园工程
 
-梳理汇聚于归档于此
+汇聚梳理归档于此
 
 ![逝如者斯乎，不舍昼夜](images/landscapephotographer201911.jpg '逝如者斯乎，不舍昼夜')
 
