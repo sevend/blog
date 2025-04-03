@@ -1,8 +1,8 @@
 ---
 title: Hello World
-subtitle:
+subtitle: 道生一，一生二，二生三，三生万物。
 date: 2025-04-01T09:20:58+08:00
-slug: 583bc6c
+# slug: 583bc6c
 draft: false
 author:
   name: SevenD
@@ -45,4 +45,14 @@ collections:
 
 <!--more-->
 
-Hello World，I am first Post of this blog.
+> Hello World
+
+I am first Post of this blog.
+
+驱动家园工程
+
+先汇聚于此，梳理归位。
+
+![逝如者斯乎，不舍昼夜](images/landscapephotographer201911.jpg '逝如者斯乎，不舍昼夜')
+
+{{< music url="https://cdn-1256932288.cos.ap-chengdu.myqcloud.com/files/nanjing.mp3" name="李志" artist="你离开了南京，从此没人和我说话" cover="https://p2.music.126.net/UuSe-Vc6rS7JtRJSQgDU2g==/2323268069553116.jpg?param=300x300" fixed=true >}}
