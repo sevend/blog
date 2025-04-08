@@ -31,7 +31,7 @@ lightgallery: false
 password:
 message:
 repost:
-  enable: true
+  enable: false
   url:
 
 tags:
@@ -40,6 +40,8 @@ categories:
   - thoughts
 collections:
   - milestones
+
+featuredImage: /posts/hello-world/images/landscapephotographer201911.jpg
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
