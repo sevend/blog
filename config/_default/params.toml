@@ -3,10 +3,10 @@
 # -------------------------------------------------------------------------------------
 
 # site description
-description = "技术结构梳理，并分享一些所见、所闻、所思"
+description = "工坊创造之源也，活的知识结构，分享一些所见、所闻、所思"
 
 # site keywords
-keywords = ["家园工程", "七的博客", "SevenD", "Seven", "Home Project", "HomeProject", "JYGC"]
+keywords = ["家园工程", "家园工程的工坊", "SevenD", "Seven", "Home Project", "HomeProject", "JYGC"]
 
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
@@ -52,7 +52,7 @@ disableThemeInject = false
     # URL of the LOGO
     logo = "/logo.webp"
     # title name
-    name = "家园工程的工坊"
+    name = "家園工程的工坊"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -149,7 +149,7 @@ disableThemeInject = false
     # title shown in home page (HTML format is supported)
     title = "SevenD's Blog"
     # subtitle shown in home page
-    subtitle = "不怕萬人阻擋，只怕自己投降"
+    subtitle = "萬物負陰而抱陽，中炁以為和"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -167,3 +167,189 @@ disableThemeInject = false
     profile = [
     "custom/profile.html",
   ]
+
+# Page config
+[page]
+  # FixIt 0.2.18 | NEW whether to enable the author's avatar of the post
+  authorAvatar = true
+  # whether to hide a page from home page
+  hiddenFromHomePage = false
+  # whether to hide a page from search results
+  hiddenFromSearch = false
+  # FixIt 0.3.0 | NEW whether to hide a page from related posts
+  hiddenFromRelated = false
+  # FixIt 0.3.10 | NEW whether to hide a page from RSS, Atom and JSON feed
+  hiddenFromFeed = false
+  # whether to enable twemoji
+  twemoji = false
+  # whether to enable lightgallery
+  lightgallery = "force"
+  # whether to enable the ruby extended syntax
+  ruby = true
+  # whether to enable the fraction extended syntax
+  fraction = true
+  # whether to enable the fontawesome extended syntax
+  fontawesome = true
+  # Default lisence of content.
+  license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+  # whether to show link to Raw Markdown content of the post
+  linkToMarkdown = true
+  # FixIt 0.3.0 | NEW whether to show link to view source code of the post
+  linkToSource = true
+  # FixIt 0.3.0 | NEW whether to show link to edit the post
+  linkToEdit = true
+  # FixIt 0.3.0 | NEW whether to show link to report issue for the post
+  linkToReport = true
+  # FixIt 0.2.13 | NEW Page style ("narrow", "normal", "wide", ...)
+  pageStyle = "normal"
+  # FixIt 0.2.17 | CHANGED Auto Bookmark Support
+  # If true, save the reading progress when closing the page.
+  autoBookmark = true
+  # FixIt 0.2.17 | NEW whether to enable wordCount
+  wordCount = true
+  # FixIt 0.2.17 | NEW whether to enable readingTime
+  readingTime = true
+  # FixIt 0.2.17 | NEW end of post flag
+  # endFlag = "（本文完）"
+  endFlag = "「本文完，更多内容汇总在我的 GitHub，持续更新，求关注、求 star、求订阅！」"
+  # FixIt 0.2.18 | NEW whether to enable instant.page
+  instantPage = true
+  # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
+  collectionList = true
+  # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
+  collectionNavigation = true
+
+  # Table of the contents config
+  [page.toc]
+    # whether to enable the table of the contents
+    enable = true
+    #  whether to keep the static table of the contents in front of the post
+    keepStatic = false
+    # whether to make the table of the contents in the sidebar automatically collapsed
+    auto = true
+    # FixIt 0.2.13 | NEW position of TOC ("left", "right")
+    position = "right"
+    # FixIt 0.3.12 | NEW supersede `markup.tableOfContents` settings
+    ordered = true
+    startLevel = 2
+    endLevel = 6
+  # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
+  [page.expirationReminder]
+    enable = true
+    # Display the reminder if the last modified time is more than 90 days ago
+    reminder = 90
+    # Display warning if the last modified time is more than 180 days ago
+    warning = 180
+    # If the article expires, close the comment or not
+    closeComment = true
+  # FixIt 0.3.0 | NEW page heading config
+  [page.heading]
+    # FixIt 0.3.12 | CHANGED must set `params.page.toc.ordered` to true
+    [page.heading.number]
+      # whether to enable auto heading numbering
+      enable = true
+      # FixIt 0.3.3 | NEW only enable in main section pages (default is posts)
+      onlyMainSection = true
+      [page.heading.number.format]
+        h1 = "{title}"
+        h2 = "{h2} {title}"
+        h3 = "{h2}.{h3} {title}"
+        h4 = "{h2}.{h3}.{h4} {title}"
+        h5 = "{h2}.{h3}.{h4}.{h5} {title}"
+        h6 = "{h2}.{h3}.{h4}.{h5}.{h6} {title}"
+  # FixIt 0.2.16 | CHANGED KaTeX mathematical formulas
+  [page.math]
+    enable = false
+    # default inline delimiter is $ ... $ and \( ... \)
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    # KaTeX extension copy_tex
+    copyTex = true
+    # KaTeX extension mhchem
+    mhchem = true
+  # Code config
+  [page.code]
+    # whether to show the copy button of the code block
+    copy = true
+    # FixIt 0.2.13 | NEW whether to show the edit button of the code block
+    edit = true
+    # the maximum number of lines of displayed code by default
+    maxShownLines = 50
+  # Mapbox GL JS config
+  [page.mapbox]
+    # access token of Mapbox GL JS
+    accessToken = ""
+    # style for the light theme
+    lightStyle = "mapbox://styles/mapbox/light-v9"
+    # style for the dark theme
+    darkStyle = "mapbox://styles/mapbox/dark-v9"
+    # whether to add NavigationControl
+    navigation = true
+    # whether to add GeolocateControl
+    geolocate = true
+    # whether to add ScaleControl
+    scale = true
+    # whether to add FullscreenControl
+    fullscreen = true
+  # FixIt 0.3.0 | NEW [Experimental] cache remote images locally, see: https://github.com/hugo-fixit/FixIt/pull/362
+  [page.cacheRemoteImages]
+    enable = false
+    # replace remote image URL with local image url (place in public/images/remote/)
+    replace = false
+  # FixIt 0.3.0 | NEW Related content config
+  [page.related]
+    enable = true
+    count = 5
+  # FixIt 0.2.17 | NEW Donate (Sponsor) settings
+  [page.reward]
+    enable = true
+    animation = true
+    # position relative to post footer, optional value: ["before", "after"]
+    position = "before"
+    comment = "Buy me a coffee~"
+    # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
+    mode = "fixed"
+    [page.reward.ways]
+      wechatpay = "/images/wechatpay.jpg"
+      alipay = "/images/alipay.jpg"
+      # paypal = "/images/paypal.png"
+      # bitcoin = "/images/bitcoin.png"
+
+# Auto translation configuration
+# See: https://github.com/xnx3/translate/
+[autoTranslate]
+  enable = true
+  # The translation service provider, ['client.edge', 'translate.service']
+  # See: https://translate.zvo.cn/43086.html
+  service = 'translate.service'
+  # List of language ID to translate to, e.g. ["english", "chinese_simplified", "chinese_traditional", ...]
+  # If not set, it will be translated to all languages
+  # See the full language list: https://api.translate.zvo.cn/language.json
+  languages = [
+    'chinese_simplified',
+    'chinese_traditional',
+    'english',
+  ]
+  # Element IDs that needs to be ignored for translation, e.g. ["comment", ...]
+  ignoreID = []
+  # Class names that need to be ignored for translation, e.g. ["post-category", ...]
+  ignoreClass = []
+  # Tag names that need to be ignored for translation, e.g. ["title", ...]
+  ignoreTag = []
+  # Selectors that need to be ignored for translation, e.g. ["[data-adapters='projects'] .single-subtitle", ...]
+  ignoreSelector = []
+  # Texts that need to be ignored for translation, e.g. ["FixIt", "Lruihao", ...]
+  ignoreText = [
+    'https://01235670.xyz',
+    'SevenD',
+  ]
+  # Whether to detect the local language
+  detectLocalLanguage = true
+  # translate.js CDN
+  cdn = ""
+  # Whether to enable Enterprise-level translation channel
+  # If set to true, automatically switch to the best translation service
+  enterprise = false
