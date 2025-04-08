@@ -163,10 +163,7 @@ disableThemeInject = false
     paginate = 10
 
 
-[customPartials]
-    profile = [
-    "custom/profile.html",
-  ]
+
 
 # Page config
 [page]
@@ -317,6 +314,17 @@ disableThemeInject = false
       alipay = "/images/alipay.jpg"
       # paypal = "/images/paypal.png"
       # bitcoin = "/images/bitcoin.png"
+
+
+
+
+
+[customPartials]
+
+    profile = [
+    "custom/profile.html",
+  ]
+
 
 # Auto translation configuration
 # See: https://github.com/xnx3/translate/
