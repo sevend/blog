@@ -41,7 +41,7 @@ categories:
 collections:
   - milestones
 
-featuredImage: /posts/hello-world/images/landscapephotographer201911.jpg
+# featuredImage: /posts/hello-world/images/landscapephotographer201911.jpg
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
