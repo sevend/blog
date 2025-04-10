@@ -13,7 +13,7 @@ tags:
 categories:
   - Documentation
 collections:
-  - Blog
+  - Blog-Tech
 lightgallery: true
 toc:
   auto: false
@@ -209,10 +209,6 @@ hugo
 2. [入门篇][getting-started]
 3. [内容管理][content-management]
 4. [进阶篇][advanced]
-
-## 寻求帮助
-
-如果你遇到问题或有任何疑问，请前往我们的 [社区][community] 寻求帮助。
 
 <!-- link reference definition -->
 <!-- markdownlint-disable-file reference-links-images -->
