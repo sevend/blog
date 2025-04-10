@@ -316,14 +316,215 @@ disableThemeInject = false
       # bitcoin = "/images/bitcoin.png"
 
 
+# TypeIt config
+[typeit]
+  # typing speed between each step (measured in milliseconds)
+  speed = 100
+  # blinking speed of the cursor (measured in milliseconds)
+  cursorSpeed = 1000
+  # character used for the cursor (HTML format is supported)
+  cursorChar = "|"
+  # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+  duration = -1
+  # FixIt 0.2.18 | NEW whether your strings will continuously loop after completing
+  loop = false
+
+# FixIt 0.2.15 | NEW Mermaid config
+[mermaid]
+  # For values, see https://mermaid.js.org/config/theming.html#available-themes
+  themes = ['default', 'dark']
+
+# FixIt 0.2.12 | NEW PanguJS config
+[pangu]
+  # For Chinese writing
+  enable = true
+  selector = "article" # FixIt 0.2.17 | NEW
+
+# FixIt 0.2.12 | NEW Watermark config
+# Detail config see https://github.com/Lruihao/watermark#readme
+[watermark]
+  enable = true
+  # watermark's text (HTML format is supported)
+  content = '<img style="height: 0.85rem;" src="/logo.webp" alt="logo" /> SevenD'
+  # watermark's transparency
+  opacity = 0.0125
+  # watermark's width. unit: px
+  width = 150
+  # watermark's height. unit: px
+  height = 20
+  # row spacing of watermarks. unit: px
+  rowSpacing = 60
+  # col spacing of watermarks. unit: px
+  colSpacing = 30
+  # watermark's tangent angle. unit: deg
+  rotate = 15
+  # watermark's fontSize. unit: rem
+  fontSize = 1.1
+  # FixIt 0.2.13 | NEW watermark's fontFamily
+  fontFamily = 'MMT_LRH,沐目体'
+
+# FixIt 0.3.10 | NEW Busuanzi count
+[busuanzi]
+  # whether to enable busuanzi count
+  enable = false
+  # busuanzi count core script source. Default is https://vercount.one/js
+  source = "https://vercount.one/js"
+  # whether to show the site views
+  siteViews = true
+  # whether to show the page views
+  pageViews = true
+
+# Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
+[verification]
+  google = ""
+  bing = ""
+  yandex = ""
+  pinterest = ""
+  baidu = ""
+
+# FixIt 0.2.10 | NEW Site SEO config
+[seo]
+  # image URL
+  image = "/images/apple-devices-preview.webp"
+  # thumbnail URL
+  thumbnailUrl = "/images/tn.webp"
+
+# FixIt 0.2.10 | NEW Analytics config
+[analytics]
+  enable = false
+  # Google Analytics
+  [analytics.google]
+    id = ""
+    # whether to anonymize IP
+    anonymizeIP = true
+  # Fathom Analytics
+  [analytics.fathom]
+    id = ""
+    # server url for your tracker if you're self hosting
+    server = ""
+  # FixIt 0.3.16 | NEW Baidu Analytics
+  [analytics.baidu]
+    id = ""
+  # FixIt 0.3.16 | NEW Umami Analytics
+  [analytics.umami]
+    data_website_id = ""
+    src = ""
+    data_host_url = ""
+    data_domains = ""
+  # FixIt 0.3.16 | NEW Plausible Analytics
+  [analytics.plausible]
+    data_domain = ""
+    src = ""
+  # FixIt 0.3.16 | NEW Cloudflare Analytics
+  [analytics.cloudflare]
+    token = ""
+  # FixIt 0.3.16 | NEW Splitbee Analytics
+  [analytics.splitbee]
+    enable = false
+    # no cookie mode
+    no_cookie = true
+    # respect the do not track setting of the browser
+    do_not_track = true
+    # token(optional), more info on https://splitbee.io/docs/embed-the-script
+    data_token = ""
+
+# Cookie consent config
+[cookieconsent]
+  enable = true
+  # text strings used for Cookie consent banner
+  [cookieconsent.content]
+    message = ""
+    dismiss = ""
+    link = ""
+
+# Compatibility config
+[compatibility]
+  # whether to use Polyfill.io on cdnjs to be compatible with older browsers
+  # https://cdnjs.cloudflare.com/polyfill
+  polyfill = true
+  # whether to use object-fit-images to be compatible with older browsers
+  objectFit = false
+
+# FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
+[githubCorner]
+  enable = false
+  permalink = "https://github.com/sevend/blog"
+  title = "在 GitHub 上查看源码，订阅请点 Watch~"
+  position = "right" # ["left", "right"]
+
+# FixIt 0.2.14 | NEW Gravatar config
+[gravatar]
+  enable = true
+  # Gravatar host, default: "www.gravatar.com"
+  host = "gravatar.loli.net" # "cravatar.cn", "gravatar.loli.net"
+  style = "mp" # "", mp, identicon, monsterid, wavatar, retro, blank, robohash
+
+# FixIt 0.2.16 | NEW Back to top
+[backToTop]
+  enable = true
+  # Scroll percent label in b2t button
+  scrollpercent = true
+
+# FixIt 0.2.16 | NEW Reading progress bar
+[readingProgress]
+  enable = true
+  # Available values: ["left", "right"]
+  start = "left"
+  # Available values: ["top", "bottom"]
+  position = "top"
+  reversed = false
+  light = "#8581dd"
+  dark = "#fff"
+  height = "2px"
+
+# FixIt 0.2.17 | NEW Progress bar in the top during page loading.
+# For more information: https://github.com/CodeByZach/pace
+[pace]
+  enable = true
+  # All available colors:
+  # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
+  color = "blue"
+  # All available themes:
+  # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
+  # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
+  theme = "minimal"
 
 
+# FixIt 0.3.17 | NEW Summary AI config
+# See https://postchat.zhheo.com/summary.html
+[postSummary]
+  enable = true
+  # If you set `params.postChat.key`, you don't need to set `params.postSummary.key`
+  key = ""
+  title = ""
+  # themes options: ["", "simple", "yanzhi"]
+  theme = ""
+  postURL = ""
+  blacklist = ""
+  wordLimit = 5000
+  typingAnimate = true
+  beginningText = ""
+
+# FixIt 0.3.10 | NEW Global Feed config for RSS, Atom and JSON feed.
+[feed]
+  # The number of posts to include in the feed. Default is -1, which means all posts.
+  limit = 10
+  # whether to show the full text content in feed.
+  fullText = true
+  # Site Challenge for Follow: https://follow.is/
+  [feed.follow]
+    feedId = ""
+    userId = ""
+
+
+# inject 都是插件型 功能
 
 [customPartials]
 
     profile = [
     "custom/profile.html",
   ]
+
 
 
 # Auto translation configuration
