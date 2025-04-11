@@ -71,14 +71,14 @@ $blog-bg-color: #fafaf8 !default;
 }
 
 .header-title {
-  font-family: MMT_H, '沐目体';
+  font-family: YSBZT, '峄山碑篆体';
   font-size: 2rem !important;
   font-weight: normal;
 
   .logo {
     min-height: 0.8em;
     height: 0.8rem;
-    vertical-align: revert;
+    vertical-align: middle;
   }
 }
 
@@ -162,10 +162,18 @@ $blog-bg-color: #fafaf8 !default;
 
 // Custom font
 @font-face {
-  font-family: MMT_H;
-  src: url('/fonts/mmt_header.ttf');
+  font-family: YSBZT;
+  src: url('/fonts/ysbzt.ttf');
   font-display: swap;
 }
+
+// Custom font
+@font-face {
+  font-family: MDM;
+  src: url('/fonts/mdm_el.ttf');
+  font-display: swap;
+}
+
 
 @font-face {
   font-family: MMT_LRH;

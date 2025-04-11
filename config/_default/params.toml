@@ -52,7 +52,7 @@ disableThemeInject = false
     # URL of the LOGO
     logo = "/logo.webp"
     # title name
-    name = "家園工程的工坊"
+    name = "家园工坊"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -62,7 +62,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = "道生一、一生二、二生三、三生萬物"
+    name = "道生一、一生二、二生三、三生万物"
     # whether to use typeit animation for subtitle name
     typeit = false
 
@@ -101,6 +101,19 @@ disableThemeInject = false
     statistics = 3
     visitor = 4
     beian = 5
+
+# Section (all posts) page config
+[section]
+  # special amount of posts in each section page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+  # FixIt 0.3.10 | NEW Section feed config for RSS, Atom and JSON feed.
+  [section.feed]
+    # The number of posts to include in the feed. Default is -1, which means all posts.
+    limit = -1
+    # whether to show the full text content in feed.
+    fullText = false
 
 # List (category or tag) page config
 [list]
@@ -147,7 +160,7 @@ disableThemeInject = false
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = "about"
     # title shown in home page (HTML format is supported)
-    title = "SevenD's Blog"
+    title = "家园工程的工坊"
     # subtitle shown in home page
     subtitle = "萬物負陰而抱陽，中炁以為和"
     # whether to use typeit animation for subtitle
@@ -163,7 +176,30 @@ disableThemeInject = false
     paginate = 10
 
 
-
+# Social config about the author
+[social]
+  GitHub = "sevend"
+  Weibo = ""
+  Email = "enter775@msn.com"
+  RSS = true
+  Stackoverflow = ""
+  Zhihu = ""
+  Douban = ""
+  Gitea = ""
+  Bilibili = ""
+  BuyMeaCoffee = ""
+  Linktree = ""
+  QQ = ""
+  QQGroup = ""
+  CSDN = ""
+  # custom social links like the following
+  # [social.weixin]
+  #   id = "qr-wx-mp_s.webp"
+  #   weight = 20
+  #   Template = "https://lruihao.cn/images/%v"
+  #   Title = "加我微信：关注公众号回复“Cell”"
+  #   [social.weixin.icon]
+  #     Class = "fa-brands fa-weixin fa-fw"
 
 # Page config
 [page]
@@ -314,6 +350,32 @@ disableThemeInject = false
       alipay = "/images/alipay.jpg"
       # paypal = "/images/paypal.png"
       # bitcoin = "/images/bitcoin.png"
+      [page.share]
+    enable = true
+    Twitter = true
+    Facebook = true
+    Linkedin = true
+    Weibo = true
+    Baidu = false
+  # FixIt NEW | 0.2.7 Third-party library config
+  [page.library]
+    [page.library.css]
+      # someCSS = "some.css"
+      # located in "assets/"
+      # Or
+      # someCSS = "https://cdn.example.com/some.css"
+    [page.library.js]
+      # someJavascript = "some.js"
+      # Or
+      # someJavascript = "https://cdn.example.com/some.js"
+  # Page SEO config
+  [page.seo]
+    # image URL
+    images = []
+    # Publisher info
+    [page.seo.publisher]
+      name = "SevenD"
+      logoUrl = "/images/avatar.jpg"
 
 
 # TypeIt config
