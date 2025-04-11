@@ -1,6 +1,6 @@
 ---
 title: 关于
-subtitle: 家园工程的工坊
+subtitle: 家园工坊
 date: 2025-04-01T21:00:48+08:00
 comment: false
 twemoji: false
@@ -25,7 +25,13 @@ _—— 老子 帛书_
 - :(fa-brands fa-github): 关注 Follow：[SevenD](https://github.com/sevend)
 - :(fa-brands fa-weixin): 微信公众号：[家园工程]()
 
+## 关于域名
+> **0123** 即为“道生一、一生二、二生三、三生萬物”之演化\
+> **5670** 五六为六爻之内也，七则六爻之外而内涵六爻与一，零则归于道也
+
 ## 关于博客
+
+家园工程的工坊，驱动家园工程。
 
 博客内容以整理知识体系为主，构建开发知识体系为主，分享一些有趣程序、技巧、开发教程、心情和学习记录等。
 
@@ -46,7 +52,7 @@ class Blog {
   }
 }
 // 建站的初衷不是为了炫耀所知，而是记录无知。
-const site = new Blog('家园工程的工坊', 'SevenD', 'https://01235670.xyz');
+const site = new Blog('家园工坊', 'SevenD', 'https://01235670.xyz');
 {{< /typeit >}}
 {{< /style >}}
 
@@ -54,7 +60,9 @@ const site = new Blog('家园工程的工坊', 'SevenD', 'https://01235670.xyz')
 ```timeline {reverse=true, animation=true, height="280px"}
 events:
   - timestamp: 2025-04-01 09:00:01
-    content: 再次基于 Hexo + FixIt 主题搭建博客，博客取名为“家园工程的工坊”，工坊创造之源也。<br>不识本心，学法无益。元始也！
+    content: 再次基于 Hugo + FixIt 主题搭建博客，博客取名为“家园工程的工坊”，工坊创造之源也。<br>不识本心，学法无益。元始也！
+  - timestamp: 2025-04-11 14:00:01
+    content: 博客改名为“家园工坊”，即家园工程的工坊。
 ```
 {{< /details >}}
 
