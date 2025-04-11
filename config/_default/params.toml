@@ -6,7 +6,7 @@
 description = "工坊创造之源也，活的知识结构，分享一些所见、所闻、所思"
 
 # site keywords
-keywords = ["家园工程", "家园工程的工坊", "SevenD", "Seven", "Home Project", "HomeProject", "JYGC"]
+keywords = ["家园工坊","家园工程", "家园工程的工坊", "SevenD", "Seven", "Home Project", "HomeProject", "JYGC"]
 
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
@@ -39,7 +39,7 @@ disableThemeInject = false
 [author]
   name = "SevenD"
   email = "enter775@msn.com"
-  link = "https://01235670.xyz/"
+  link = "https://github.com/sevend/"
   avatar = "/images/avatar.jpg"
 
 [header]
@@ -516,7 +516,7 @@ disableThemeInject = false
 
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
-  enable = true
+  enable = false
   # Gravatar host, default: "www.gravatar.com"
   host = "gravatar.loli.net" # "cravatar.cn", "gravatar.loli.net"
   style = "mp" # "", mp, identicon, monsterid, wavatar, retro, blank, robohash
@@ -614,6 +614,7 @@ disableThemeInject = false
   ignoreSelector = []
   # Texts that need to be ignored for translation, e.g. ["FixIt", "Lruihao", ...]
   ignoreText = [
+    'https://github.com/sevend',
     'https://01235670.xyz',
     'SevenD',
   ]

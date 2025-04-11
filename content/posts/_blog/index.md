@@ -2,9 +2,7 @@
 weight: 1
 title: 创建 Hugo FixIt 站点指南
 date: 2025-04-09T20:14:22+08:00
-author:
-  name: SevenD
-  link: https://0123567.xyz
+
 description: 创建一个 Hugo FixIt 站点。
 
 tags:
