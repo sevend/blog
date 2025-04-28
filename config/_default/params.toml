@@ -42,6 +42,59 @@ disableThemeInject = false
   link = "https://github.com/sevend/"
   avatar = "/images/avatar.jpg"
 
+# App icon config
+[app]
+  # optional site title override for the app when added to an iOS home screen or Android launcher
+  title = "家园工坊"
+  # whether to omit favicon resource links
+  noFavicon = false
+  # modern SVG favicon to use in place of older style .png and .ico files
+  svgFavicon = ""
+  # Safari mask icon color
+  iconColor = "#5bbad5"
+  # Windows v8-10 tile color
+  tileColor = "#da532c"
+  # FixIt 0.2.12 | CHANGED Android browser theme color
+  [app.themeColor]
+    light = "#ffffff"
+    dark = "#252627"
+
+# Search config
+[search]
+  enable = true
+  # type of search engine ["algolia", "fuse", "cse", "post-chat"]
+  type = "fuse"
+  # max index length of the chunked content
+  contentLength = 4000
+  # placeholder of the search bar
+  placeholder = ""
+  # max number of results length
+  maxResultLength = 10
+  # snippet length of the result
+  snippetLength = 50
+  # HTML tag name of the highlight part in results
+  highlightTag = "em"
+  # whether to use the absolute URL based on the baseURL in search index
+  absoluteURL = false
+  # [search.algolia]
+  #   index = "index"
+  #   appID = "E1SBIFK45Y"
+  #   searchKey = "e2d8cddff3be86ab9ead99a29f56a963"
+
+# FixIt 0.3.16 | NEW Custom Search Engine (CSE)
+[cse]
+  # Search Engine: ["google", "bing"]
+  engine = "google"
+  # Search results page URL (layout: search)
+  resultsPage = "/search/"
+  # Google: https://programmablesearchengine.google.com/
+  # Google Custom Search Engine Context
+  [cse.google]
+    cx = ""
+
+  # Bing (Unsupported): https://www.customsearch.ai/
+  [cse.bing]
+
 [header]
   # FixIt 0.2.13 | CHANGED desktop header mode ("sticky", "normal", "auto")
   desktopMode = "sticky"
