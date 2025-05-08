@@ -8,3 +8,5 @@ content/.history/*
 .hugo_build.lock
 
 public/*
+
+config/_default/public/*
